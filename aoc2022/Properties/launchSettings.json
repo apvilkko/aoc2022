@@ -2,8 +2,8 @@
   "profiles": {
     "aoc2022": {
       "commandName": "Project",
-      "commandLineArgs": "day15 input",
-      "workingDirectory": "C:\\repos\\aoc2022\\aoc2022"
+      "commandLineArgs": "day16 sample",
+      "workingDirectory": "C:\\projects\\aoc2022\\aoc2022"
     }
   }
 }
