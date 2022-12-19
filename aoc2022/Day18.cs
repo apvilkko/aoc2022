@@ -1,6 +1,6 @@
 ﻿namespace aoc2022;
 
-public class Day19 : IAocRunner
+public class Day18 : IAocRunner
 {
     private List<Point> _points = new();
     private Dictionary<Point, int> _surfaces = new();
@@ -103,7 +103,7 @@ public class Day19 : IAocRunner
 
     public override Task Run(string variant)
     {
-        foreach (var line in System.IO.File.ReadLines($"day19/{variant}.txt"))
+        foreach (var line in System.IO.File.ReadLines($"day18/{variant}.txt"))
         {
             var l = line.Trim();
 
