@@ -97,7 +97,7 @@ public class Day21 : IAocRunner
                 o.OperationType == OperationType.Addition ? "+" :
                 o.OperationType == OperationType.Subtraction ? "-" :
                 o.OperationType == OperationType.Multiplication ? "*" : "/"
-            ) + Show(o.Operands[1]) + ")",
+            ) + AsExpression(o.Operands[1]) + ")",
             _ => throw new Exception("not valid")
         };
     }
