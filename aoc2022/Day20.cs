@@ -28,7 +28,8 @@ public class Day20 : IAocRunner
                 continue;
             }
             var backwards = amount < 0;
-            for (var j = 0; j < Math.Abs(amount); ++j) {
+            var repeats = Math.Abs(amount) % size;
+            for (var j = 0; j < repeats; ++j) {
                 if (backwards) {
                     item = item.Previous;
                     if (item == null) {
